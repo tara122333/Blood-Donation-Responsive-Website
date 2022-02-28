@@ -16,5 +16,13 @@
     "pug": "^3.0.2",
     "slugify": "^1.6.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tara122333/Blood_Donation_web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tara122333/Blood_Donation_web/issues"
+  },
+  "homepage": "https://github.com/tara122333/Blood_Donation_web#readme"
 }

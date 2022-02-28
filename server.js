@@ -5,8 +5,7 @@ const path = require("path");
 const bodyparser = require("body-parser");
 
 
-const port = 8080;
-const host = "127.0.0.1";
+const port = process.env.PORT ||80;
 
 
 const app = express();
@@ -86,6 +85,6 @@ app.post("/",(req,res)=>{
 
 // Server Listen
 
-app.listen(port,host,()=>{
-    console.log(`Server has been started on part ${port} on the server ${host} .`);
+app.listen(port,()=>{
+    console.log(`Server has been started on part ${port} on the server.`);
 });
